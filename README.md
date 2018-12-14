@@ -1,0 +1,7 @@
+# E-Commerce Comment Classification with Logistic Regression and LDA model
+
+## Introduction
+
+In this project, we will employ an [Laten Dirichlet Allocation (LDA) model](https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation) to analyze customer reviews collected from a shopping website. The dataset in total includes 23,486 records of reviews. For each review, we get information like clothing id, reviewer's age, review title, review text and so on. To conduct text analysis, we first do the pre-processing and vectorization on the text to transform text information into numerical features. The next step is to calculate the [Term Frequency-Inverse Document Frequency (TF-IDF)](https://en.wikipedia.org/wiki/Tf%E2%80%93idf) for each review. Then we train an LDA model and an [Latent Semantic Analysis](https://en.wikipedia.org/wiki/Latent_semantic_analysis)  (LSA, A.K.A. Latent Semantic Indexing) model to extract latent topics, calculate text correlation and output most relevant results. Finally, we use cross-validation to select the optimal number of topics for the topic models. Then we predict the sentiment (Recommended vs Not Recommended) of reviews using the *Bag-of-topic* features (genrated from [Bag-of-words model](https://en.wikipedia.org/wiki/Bag-of-words_model), such as Unigram, Bigram and Trigram) using Logistic Regression.
+
+**NOTE: Details can be found in the report `Report.pdf`.**
