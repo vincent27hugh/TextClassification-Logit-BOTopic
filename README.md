@@ -81,8 +81,8 @@ Thanks to the data support from Nick Brooks and Kaggle. Similar repository inclu
 
 * [AFAgarap/ecommerce-reviews-analysis](https://github.com/AFAgarap/ecommerce-reviews-analysis): Statistical Analysis on E-Commerce Reviews, with Sentiment Classification using Bidirectional Recurrent Neural Network (RNN)
 
-[^1]: [Evaluation of Topic Modeling: Topic Coherence](https://datascienceplus.com/evaluation-of-topic-modeling-topic-coherence/)
-[^2]: [Demo page for LDAvis: A method for visualizing and interpreting topics](http://www.kennyshirley.com/LDAvis/)
+* [^1]: [Evaluation of Topic Modeling: Topic Coherence](https://datascienceplus.com/evaluation-of-topic-modeling-topic-coherence/)
+* [^2]: [Demo page for LDAvis: A method for visualizing and interpreting topics](http://www.kennyshirley.com/LDAvis/)
 
 
 ---
